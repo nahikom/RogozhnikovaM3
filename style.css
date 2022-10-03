@@ -1,0 +1,168 @@
+@media (max-width: 415px) {
+    html{
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 80%;
+    }
+    .tubl {
+        width: 100%;
+        overflow: auto;
+        justify-content: center;
+    }
+    nav {
+        width: 300px;
+    }
+    #parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .tubl {
+        order: 2;
+    }
+    .f {
+        order: 1;
+    }
+    h1 {
+        text-shadow: 2px 2px 2px #000;
+    }
+}
+
+@media not (max-width: 415px){
+    table {
+        width: 70%;
+    }
+    nav li { 
+        display: inline; 
+    }
+    nav {
+        width: 550px;
+    }
+}
+
+body {
+    margin: 0 auto;
+}
+
+.bg-image {
+    background: url(files/8.jpg) repeat;    
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background: url(files/7.jpg) no-repeat right bottom;
+    background-color: #669bd1;
+}
+
+header img {
+    padding: 10px; 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 100px;
+}
+
+h1, h2 {
+    color: #f0f8ff; 
+    padding-bottom: 20px; 
+    padding-left: 20px;
+}
+
+.navbar {
+    height: 35px;
+    width: 550px;
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #669bd1;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #8fbdea;
+}
+
+nav a {
+    color: #f0f8ff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+
+nav ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+}
+
+.back {
+    background-color: rgba(143, 189, 234, 0.6);
+}
+
+.image {
+    text-align: center;
+}
+
+table {
+    border: 2px solid #808080;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th {
+    border: 1px solid #808080;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #808080;
+    text-align: center;
+    padding: 10px;
+}
+
+.gods-eye {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nechet {
+    background: #FFEBCD;
+}
+
+.chet {
+    background: #FFDEAD;
+}
+
+.main-str {
+    background: #DEB887;
+}
+
+#non-str {
+    background: #FFFFFF;
+}
+
+#britain {
+    background: linear-gradient(180deg, #FFFFFF, #0000FF, #FF0000);
+    color: #ffffff;
+}
+
+form {
+    background-color: rgba(143, 189, 234, 0.6);
+}
+
+footer {
+    background-color: #1c70c4;
+    padding: 40px 0;
+    width: 100%;
+}
