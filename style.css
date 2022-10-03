@@ -13,7 +13,11 @@
         overflow: auto;
         justify-content: center;
     }
-    nav {
+    .navbar-collapse{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .navbar {
         width: 300px;
     }
     #parent {
@@ -34,6 +38,10 @@
 @media not (max-width: 415px){
     table {
         width: 70%;
+    }
+    .navbar{
+        width: 550px;
+        height: 35px;
     }
     nav li { 
         display: inline; 
@@ -69,11 +77,6 @@ h1, h2 {
     color: #f0f8ff; 
     padding-bottom: 20px; 
     padding-left: 20px;
-}
-
-.navbar {
-    height: 35px;
-    width: 550px;
 }
 
 .navbar-collapse{
